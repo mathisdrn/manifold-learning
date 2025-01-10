@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: How to detect spam emails ?
+  subtitle: Theory, implementation and evaluation of binary classifiers
+  subject: Machine Learning - Course Project
+  date: 2024-11-11
+  banner: ./assets/banner.png
+  github: https://github.com/mathisdrn/M1MIASHS-NLP/
+  license:
+    content: CC-BY-SA-4.0
+    code: MIT
+  authors: 
+    - name: Bastien Monjot
+      affiliation: uol
+    - name: Mathis Derenne
+      affiliation: uol
+      github: mathisdrn
+    - name: Maxime Planquette
+      affiliation: uol
+    - name: Safaa Jouini
+      affiliation: uol
+  affiliations: 
+    - id: uol
+      institution: University of Lyon
+site:
+  template: article-theme
+  options:
+    outline_maxdepth: 2
