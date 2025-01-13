@@ -1,29 +1,35 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: How to detect spam emails ?
-  subtitle: Theory, implementation and evaluation of binary classifiers
+  title: Manifold Learning
+  subtitle: Theory and implementation of manifold learning techniques
   subject: Machine Learning - Course Project
-  date: 2024-11-11
-  banner: ./assets/banner.png
-  github: https://github.com/mathisdrn/M1MIASHS-NLP/
+  date: 2024-01-10
+  # github: https://github.com/mathisdrn/manifold-learning/
   license:
     content: CC-BY-SA-4.0
     code: MIT
   authors: 
-    - name: Bastien Monjot
-      affiliation: uol
     - name: Mathis Derenne
-      affiliation: uol
+      affiliation: University of Lyon
       github: mathisdrn
-    - name: Maxime Planquette
-      affiliation: uol
-    - name: Safaa Jouini
-      affiliation: uol
-  affiliations: 
-    - id: uol
-      institution: University of Lyon
+    
+  toc:
+    - file: src/01 - Introduction.md
+    - file: src/02 - MDS.ipynb
+    - file: src/03 - Isomap.ipynb
+    - file: src/04 - LLE.ipynb
+    - file: src/05 - MLLE.ipynb
+    - file: src/06 - HLLE.ipynb
+    - file: src/07 - LTSA.ipynb
+    - file: src/08 - Spectral Embedding.ipynb
+    - file: src/09 - t-SNE.ipynb
+    - file: src/10 - summary.md
+    - file: src/11 - implementation.ipynb
+    # - file: src/12 - misc.md
+    
 site:
-  template: article-theme
+  template: book-theme
   options:
-    outline_maxdepth: 2
+    logo_text: "‎"
+    hide_search: true
