@@ -14,7 +14,7 @@ Data can tell stories in countless ways. Consider a simple yet intriguing exampl
 
 While we could describe this data as a precise collection of coordinates, our minds naturally gravitate toward a more abstract interpretation: "points arranged to spell `hello` with specific stylistic characteristics." This shift from raw coordinates to a higher-level description demonstrates how we instinctively seek meaningful patterns in data.
 
-This abstract representation, though less precise, captures something profound about the data's structure. When we describe it as "the word 'hello'," we're leveraging our understanding of language, typography, and visual patterns. This interpretation isn't merely a simplification—it's a transformation that relies on our hierarchical understanding of concepts like letters, words, and visual style.
+This abstract representation, though less precise, captures something profound about the data's structure. When we describe it as "the word `hello`, we're leveraging our understanding of language, typography, and visual patterns. This interpretation isn't merely a simplification—it's a transformation that relies on our hierarchical understanding of concepts like letters, words, and visual style.
 
 Consider how you would memorize multiple such datasets. Rather than remembering individual point coordinates, you might focus on key features: the words themselves, font characteristics, point density, and spacing between letters. This natural tendency to organize information hierarchically allows us to compress complex data into meaningful representations.
 
